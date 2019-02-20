@@ -1,0 +1,18 @@
+#聊天的格式如下: 
+#servrprefix prefix playername suffix speaklore message last
+#服务器前缀 玩家前缀 玩家名字 后缀 说话符号 聊天内容 尾缀
+#变量说明：只支持playername这一个变量,而且只能在playername用，表示为%playername%
+#前缀
+prefix: ''
+#后缀
+suffix: ''
+#说话符号
+speaklore: '&5>&a>&b>&e>&f'
+#尾缀(这个不知道有没有用，不过还是加上了)
+last: ''
+#服务器前缀
+serverprefix: '&4<&cChatFormat&4>&a'
+#玩家名
+playername: '&a[&b%playername%&a]'
+#如果是true则其他插件(比如Vault,ESS)的前后缀生效，如果为false则全不！生！效！
+isdisplayname: true

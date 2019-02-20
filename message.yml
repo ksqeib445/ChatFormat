@@ -1,0 +1,62 @@
+message:
+  head: §3[聊天格式]§b>>>
+  enable: §a插件已启动！
+  disable: §a插件已关闭！
+  load: §a插件已加载！
+help:
+  oppages:
+    - oppage1
+    - oppage2
+  pages:
+    - page1
+    - page2
+  page1:
+    - ' help [页码]'
+    - §c获取帮助
+    - ' show'
+    - §c查看聊天格式
+  page2:
+    - ' about'
+    - §c获取关于
+  oppage1:
+    - ' prefix [新前缀]'
+    - §c修改前缀
+    - ' suffix [新后缀]'
+    - §c修改后缀
+    - ' speaklore [新符号]'
+    - §c修改说话符号
+  oppage2:
+    - ' serverprefix [新前缀]'
+    - §c修改服务器聊天前缀
+    - ' last [新信息]'
+    - §c修改话后面的信息
+    - ' playername [新信息]'
+    - §c修改玩家左右的字符
+  page: '§a当前页码：§e [pagenow] §c共：§e [maxpage] §a页'
+  /: §a/
+  help: ' help [页码] §e以获取帮助'
+  showall: ' showall [参数] §e以显示信息'
+  head: §e=====|§a聊天插件|§e=====
+  last: §e====================
+commands:
+  view: '§e预览:'
+  testplayermessage: '玩家说的话'
+  testplayername: '玩家名字'
+  prefix: '§e前缀已刷新，预览:'
+  speaklore: '§e聊天符号已刷新，预览:'
+  suffix: '§e后缀已刷新，预览:'
+  serverprefix: '§e服务器聊天前缀已刷新，预览:'
+  last: '§e聊天符号已刷新，预览:'
+  playername: '§e玩家左右字符已刷新，预览:'
+  subwrong: '§c参数错误,请使用§a/'
+  reload: '§e插件已重载完成'
+  nopermission: '&c&l您无权进行此操作！'
+usage:
+ prefix: ' [前缀]§c修改聊天前缀'
+ suffix: ' [后缀]§c修改聊天后缀'
+ speaklore: ' [聊天符号]§c修改聊天符号'
+ serverprefix: ' [前缀]§c修改服务器聊天前缀'
+ playername: ' [新信息]§c修改玩家名字左右的字符'
+ last: ' [新信息]§c修改话后面的信息'
+error:
+ notnum: '§c参数错误,请输入数字'
